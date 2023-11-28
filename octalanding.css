@@ -1,0 +1,258 @@
+*{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+body{
+   background-color:lightblue;
+}
+.container{
+  
+   justify-content: center;
+   align-items: center;
+}
+nav{
+   font-weight: bold;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  background-color: lightcyan;
+  padding: 20px;
+}
+nav ul{
+   display: flex;
+   list-style-type: none;
+   justify-content: space-around;
+   font-family: serif;
+}
+nav ul li a{
+  text-decoration: none;
+   padding: 0.3rem 1.3rem;
+   font-size: 17px;
+   font-weight: bold;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.logo{
+   display: flex;
+   background-color: lightcyan;
+   margin-right: auto;  
+   align-items: baseline;  
+   font-size: 15px;
+   
+}
+.logo h2{
+   font-size: 10px;
+   color: palevioletred;
+   
+}
+#container2{
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   float: left;
+}
+.icecream{
+float: right;
+}
+.caption {
+  
+   font-size: 25px;
+   font-family: serif;
+   color: palevioletred;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-items: self-end;
+}
+.info {
+  
+   font-size: 20px;
+   font-family: serif;
+   color:lightcoral;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.button{display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+button{
+   font-size: 20px;
+   font-family: serif;
+   box-sizing: border-box;
+   border-radius: 0.5em;
+   padding: 17px;
+   cursor: pointer;
+   background-color:palevioletred;
+   color: white;
+   border: none;
+   animation: blink 2s ease infinite;
+}
+#container3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.storyimage{
+   float: left;
+}
+#container4{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.heading{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.heading h3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: palevioletred;
+}
+.heading h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: black;
+}
+.sections{
+   background-color: lightblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: auto;
+   gap: 20px;
+}
+.section1{
+   padding: auto;
+   box-sizing: border-box;
+   border-radius: 0.5em;
+   background-color: lightcyan;
+}
+.section1 h3{
+   color: crimson;
+   font-weight: bold;
+   font-size: 35px;
+   align-items: flex-start;
+}
+
+.section1 p{
+   flex: wrap;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: black;
+}
+.userExperince h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: darkgreen;
+}
+.user sections{
+   background-color: lightskyblue;
+}
+.sections  button{
+   padding: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.enqiry{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.enqiry h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.enqiry input{
+   padding: 20px;
+   width: 280px;
+   height: 15px;
+   color:darkcyan;
+   border-radius: 0.5em;
+   border: none;
+}
+.enqiry value{
+   color: cadetblue;
+}
+.social-links{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+.social-links h2{
+   cursor: pointer;
+   color: blueviolet;
+}
+.social-links i{
+   margin-left: 10px;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   background-color: chocolate;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.social-links i:hover{
+   transform: translate(-5px);
+}
+.images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.usericon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   list-style: none;
+   background-color:lightgray;
+}
+.col1{
+   padding: 80px 40px 80px;
+}
+.col1 ul {
+   
+   display: inline;
+   list-style-type: none;
+}
+.col1 ul li a{
+   text-decoration: none;
+   line-break: 5px;
+   font-size: 20pxpx;
+   font-weight: bold;
+   color: palevioletred;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.sectionbutton{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.sectionbutton button{
+   padding: auto;
+   
+}
+.section1 :hover{
+   transform: translate(-5px);
+}
