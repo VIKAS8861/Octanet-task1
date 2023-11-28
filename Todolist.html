@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To do app</title>
+  <link rel="stylesheet" type="text/css" href="Todo.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To do app</h1>
+    <form id="taskForm">
+      <input type="text" id="taskName" placeholder="Task Name" required>
+      <input type="text" id="taskDescription" placeholder="Task Description" required>
+      <input type="date" id="taskDeadline" required>
+      <select id="taskPriority" required>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <input type="text" id="taskLabel" placeholder="Task Label">
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
